@@ -29,7 +29,7 @@ const Sidebar = () => {
     <>
       <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#191624]">
         <img src={logo} alt="logo" className="w-full h-20 object-contain" />
-        <span className="mt-5 sm:text-3xl text-xl font-bold text-white ml-5">
+        <span className="mt-5 sm:text-3xl text-xl font-bold text-white" style={{textAlign: "center"}}>
           Moo-Sic
         </span>
         <NavLinks />
